@@ -15,8 +15,9 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
+  "proxy": "https://warbler-backend.herokuapp.com",
   "scripts": {
-    "start": "set PORT=process.env.PORT && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
